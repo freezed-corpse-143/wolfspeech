@@ -1,0 +1,72 @@
+@charset "UTF-8";.service-item-taste button {
+  cursor: pointer;
+}
+body{
+	background-image: url(images/p1.jpg);
+}
+.service-item-taste .taste-button {
+  background: #187cff;
+  border: 1px solid;
+  border-color: #478eea;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.service-item-taste .taste-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.service-item-taste .start-taste {
+  margin-top: 30px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.service-item-taste .start-taste.flex-display-1{
+  display: flex;
+}
+
+.service-item-taste .start-taste .start-taste-top {
+  margin: 5px;
+}
+
+.service-item-taste .start-taste .start-taste-top .start-taste-button {
+  float: left;
+  width: calc(100% / 6);
+  display: block;
+  margin-top: 10px;
+}
+
+.service-item-taste .start-taste .output-box {
+  height: 100px;
+  width: 30%;
+  overflow: auto;
+  background: #f0f0f0;
+  line-height: 1.5;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+
+.hr {
+  animation: note 0.2s ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.taste-button {
+  margin: 0 auto;
+  height: 30px;
+  width: 60px;
+  font-size: 16px;
+  letter-spacing: 6px;
+}
+
+.taste-button:hover {
+  background: #0b99ff;
+}

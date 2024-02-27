@@ -1,0 +1,67 @@
+@charset "UTF-8";
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+.analysis-bottom {
+  margin-left: 30px;
+}
+
+.analysis-bottom .predict-identity-right {
+  float: left;
+  width: calc(100% / 2);
+  display: block;
+  margin-top: 10px;
+}
+
+.analysis-bottom .predict-identity-right .predict-box {
+  height: 1000px;
+  /*overflow: auto;*/
+  background: #f0f0f0;
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+.analysis-bottom .predict-identity-right .predict-box .predict-output {
+  height: 970px;
+  /*overflow: auto;*/
+  background:white;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.analysis-bottom .predict-identity-right .analysis-box {
+  height: 1000px;
+  /*overflow: auto;*/
+  background: #f0f0f0;
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  
+}
+.analysis-bottom .predict-identity-right .analysis-box .analysis-output {
+  height: 970px;
+  overflow: auto;
+  background:white;
+  width: 100%;
+  line-height: 1.5;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>JavawebProject</display-name>
+    <welcome-file-list>
+    <welcome-file>video.jsp</welcome-file>
+  </welcome-file-list>
+<!--   <welcome-file-list>
+    <welcome-file>HeadImageServlet.do</welcome-file>
+  </welcome-file-list> -->
+<!--   <servlet>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>com.hanpeng.servlet.RegistServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/RegistServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>tagboardServlet</servlet-name>
+    <servlet-class>com.hanpeng.servlet.tagboardServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>tagboardServlet</servlet-name>
+    <url-pattern>/tagboardServlet.do</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>HeadImageServlet</servlet-name>
+    <servlet-class>com.hanpeng.servlet.HeadImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HeadImageServlet</servlet-name>
+    <url-pattern>/HeadImageServlet.do</url-pattern>
+  </servlet-mapping> -->
+      <servlet>
+    <servlet-name>VideoSearchServlet</servlet-name>
+    <servlet-class>com.hanpeng.servlet.VideoSearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VideoSearchServlet</servlet-name>
+    <url-pattern>/VideoSearchServlet.do</url-pattern>
+  </servlet-mapping>
+
+
+  
+        <servlet>
+    <servlet-name>UploadVideoServlet</servlet-name>
+    <servlet-class>com.hanpeng.servlet.UploadVideoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadVideoServlet</servlet-name>
+    <url-pattern>/UploadVideoServlet.do</url-pattern>
+  </servlet-mapping>
+</web-app>

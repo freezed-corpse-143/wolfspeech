@@ -1,0 +1,41 @@
+{
+	'x iang x in': 0
+	, 'zh i d ao': 1
+	, 't ou y i': 2
+	, 'd ao d e': 3
+	, 'j ing sh ang': 4
+	, 'm ei j u': 5
+	, 'g ong b ian': 6
+	, 'sh ou w ei': 7
+	, 'j in sh ui': 8
+	, 'j ing y ou': 9
+	, 't ong b ian': 10
+	, 'sh ang j ing': 11
+	, 'l ang m ian': 12
+	, 'h an t iao': 13
+	, 'j ing x ia': 14
+	, 'p ing m in': 15
+	, 'x ian y an': 16
+	, 'q i p iao': 17
+	, 'y in sh ui': 18
+	, 'j in y an': 19
+	, 'd u d iao': 20
+	, 'zh en y u': 37
+	, 'l ian l ang': 22
+	, 'l iang l ang': 23
+	, 'y i l ang': 24
+	, 'z i sh ou': 25
+	, 'w u h ao': 26
+	, 'ch a sh a': 27
+	, 'b iao sh ui': 28
+	, 'j ing h ui': 29
+	, 'c ai sh en m ing': 30
+	, 'c ai sh en f en': 31
+	, 't iao sh en f en': 32
+	, 'q ian x ing zh e': 33
+	, 't u ch eng j u': 34
+	, 'j ing h ui l iu': 35
+	, 'j in y an zh ang l ao': 36
+	, 'y u y an j ia': 37
+	, 'y uan j ia': 37
+}
